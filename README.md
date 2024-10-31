@@ -14,11 +14,13 @@ Requirements:
 - Developing the sequential version is optional, an available open-source code may be used, provided a link to the source code is included.
 - For OpenMP-only version, include comments with execution times, for sequential and parallel versions (1, 2, 4 and 8 threads)
 - For MPI version, state execution times as above for the following configurations, openMP is not allowed for this.
+  
 | Processes | Threads | Time |
 | --- | --- | --- |
 | 1 | 4 | time |
 | 2 | 2 | time |
 | 4 | 0 | time |
+
 - Create a readme.txt file with compilation and execution instructions as well as explanation of the application.
 
 ## Tasks
@@ -60,6 +62,7 @@ Versions to implement:
 For the GPU version `warps_lauched` and `warp_execution_efficiency` should be commented on when tested, as outputted by `nvprof`. All test run times must be stated, with compilation using `-O3` and GCC 8. Use `nvcc` for CUDA.
 
 Provided Hints:
+
 I - Matrix multiplication (mm) uses two dimensions (x/y | i/j), representing rows and columns, so the kernel should have two indices:
 ```C
 int row = blockIdx.y * blockDim.y + threadIdx.y;
