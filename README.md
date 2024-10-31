@@ -12,6 +12,7 @@ Requirements:
 - Group must use a real input dataset that demands at least 10 seconds of execution time on the parcode server on sequential version.
 (Parcode server is a dedicated server used in-class for this course, to standardize the tests).
 - Developing the sequential version is optional, an available open-source code may be used, provided a link to the source code is included.
+- Create a readme.txt file with compilation and execution instructions as well as explanation of the application.
 - For OpenMP-only version, include comments with execution times, for sequential and parallel versions (1, 2, 4 and 8 threads)
 - For MPI version, state execution times as above for the following configurations, openMP is not allowed for this.
   
@@ -20,8 +21,6 @@ Requirements:
 | 1 | 4 | time |
 | 2 | 2 | time |
 | 4 | 0 | time |
-
-- Create a readme.txt file with compilation and execution instructions as well as explanation of the application.
 
 ## Tasks
 All tasks are compelted in C using linux GCC compiler, and each .c file includes code execution times.
