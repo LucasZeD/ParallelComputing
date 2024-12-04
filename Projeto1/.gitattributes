@@ -1,9 +1,0 @@
-* text=auto eol=lf
-
-*.gitattributes text
-.gitignore      text
-*.md            text diff=markdown
-
-*.gitattributes linguist-language=gitattributes
-*.gitattributes linguist-detectable=true
-*.gitattributes linguist-documentation=false

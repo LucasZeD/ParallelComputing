@@ -288,7 +288,8 @@ int main(int argc, char **argv)
 
 	// Read the samples.
 	{
-		ifstream is("train.txt");
+		//ifstream is("train.txt");
+		ifstream is("PrepData/Stdnt_Oversampled_Train.txt");
 		while (!is.eof())
 		{
 			Sample<N> sample;
@@ -313,7 +314,8 @@ int main(int argc, char **argv)
 	// Classify some samples from the file.
 	{
 		vector<array<string, N>> samples_to_classify;
-		ifstream is("teste.txt");
+		//ifstream is("teste.txt");
+		ifstream is("PrepData/Stdnt_Oversampled_Test.txt");
 		while (!is.eof())
 		{
 			array<string, N> sample;

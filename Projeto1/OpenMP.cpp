@@ -275,7 +275,8 @@ int main(int argc, char **argv)
 	omp_set_num_threads(num_threads); // Configurando o número de threads do OpenMP
 
 	{
-		ifstream is("train.txt");
+		//ifstream is("train.txt");
+		ifstream is("PrepData/Stdnt_Oversampled_Train.txt");
 		while (!is.eof())
 		{
 			Sample<N> sample;
@@ -298,7 +299,8 @@ int main(int argc, char **argv)
 
 	{
 		vector<array<string, N>> samples_to_classify;
-		ifstream is("teste.txt");
+		//ifstream is("teste.txt");
+		ifstream is("PrepData/Stdnt_Oversampled_Test.txt");
 		while (!is.eof())
 		{
 			array<string, N> sample;

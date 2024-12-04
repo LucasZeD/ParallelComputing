@@ -285,7 +285,8 @@ int main(int argc, char **argv)
 	if (world_rank == 0)
 	{
 		// Processo mestre lê os dados
-		ifstream is("train.txt");
+		//ifstream is("train.txt");
+		ifstream is("PrepData/Stdnt_Oversampled_Train.txt");
 		while (!is.eof())
 		{
 			Sample<N> sample;
@@ -349,7 +350,8 @@ int main(int argc, char **argv)
 
 	{
 		vector<array<string, N>> samples_to_classify;
-		ifstream is("teste.txt");
+		//ifstream is("teste.txt");
+		ifstream is("PrepData/Stdnt_Oversampled_Test.txt");
 		while (!is.eof())
 		{
 			array<string, N> sample;
