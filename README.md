@@ -33,7 +33,6 @@ Parallelize the code developed in Project 01 to run on a GPU using both OpenMP a
 `Requirements`:
 - The group must parallelize the existing solution for the GPU, creating two separate versions: one using OpenMP and the other using CUDA.  
 - The group must perform performance and scalability tests and compare the results between the GPU versions and the original sequential version from Project 01.  
-- A lab session will take place on November 28, and an email will be sent with the details of the assigned lab.  
 
 ---
 
