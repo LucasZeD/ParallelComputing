@@ -1,20 +1,24 @@
 # Parallel Computing (CP)
+
 This repository contains files related to the Parallel Computing (CP) course in the Computer Science Bachelor's program at PUC Minas. The activities include assignments provided by Henrique Cota de Freitas, professor of CP, as well as self-assigned tasks.
+
+---
 
 ## Projects
 
 ### First Project
-Parallelize a sequential version of a parallel artificial intelligence application in C or C++ using hybrid MPI/OpenMP.
-The application must fit one of three artificial intelligence categories:
-decision tree, grouping or neural network.
 
-Requirements:
-- Group must use a real input dataset that demands at least 10 seconds of execution time on the parcode server on sequential version.
+Parallelize a sequential version of a parallel artificial intelligence application in C or C++ using hybrid MPI/OpenMP.  
+The application must fit one of three artificial intelligence categories:
+decision tree, grouping or neural network.  
+
+`Requirements`:
+- Group must use a real input dataset that demands at least 10 seconds of execution time on the parcode server on sequential version.  
 (Parcode server is a dedicated server used in-class for this course, to standardize the tests).
-- Developing the sequential version is optional, an available open-source code may be used, provided a link to the source code is included.
-- Create a readme.txt file with compilation and execution instructions as well as explanation of the application.
-- For OpenMP-only version, include comments with execution times, for sequential and parallel versions (1, 2, 4 and 8 threads)
-- For MPI version, state execution times as above for the following configurations, openMP is not allowed for this.
+- Developing the sequential version is optional, an available open-source code may be used, provided a link to the source code is included.  
+- Create a readme.txt file with compilation and execution instructions as well as explanation of the application.  
+- For OpenMP-only version, include comments with execution times, for sequential and parallel versions (1, 2, 4 and 8 threads)  
+- For MPI version, state execution times as above for the following configurations, openMP is not allowed for this.  
   
 | Processes | Threads | Time |
 | --- | --- | --- |
@@ -22,8 +26,21 @@ Requirements:
 | 2 | 2 | time |
 | 4 | 0 | time |
 
+### Second Project
+
+Parallelize the code developed in Project 01 to run on a GPU using both OpenMP and CUDA versions.
+
+`Requirements`:
+- The group must parallelize the existing solution for the GPU, creating two separate versions: one using OpenMP and the other using CUDA.  
+- The group must perform performance and scalability tests and compare the results between the GPU versions and the original sequential version from Project 01.  
+- A lab session will take place on November 28, and an email will be sent with the details of the assigned lab.  
+
+---
+
 ## Tasks
 All tasks are compelted in C using linux GCC compiler, and each .c file includes code execution times.
+
+### Task1
 
 ### Task2
 Given a code, use OpenMP MAP to parallelize it by adding directives only, without altering the code.
