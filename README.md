@@ -6,7 +6,7 @@ This repository contains files related to the Parallel Computing (CP) course in 
 
 ## Projects
 
-### First Project
+### First Project (Parallel OpenMP && MPI)
 
 Parallelize a sequential version of a parallel artificial intelligence application in C or C++ using hybrid MPI/OpenMP.  
 The application must fit one of three artificial intelligence categories:
@@ -26,7 +26,7 @@ decision tree, grouping or neural network.
 | 2 | 2 | time |
 | 4 | 0 | time |
 
-### Second Project
+### Second Project - GPU (OpenMP && CUDA)
 
 Parallelize the code developed in Project 01 to run on a GPU using both OpenMP and CUDA versions.
 
