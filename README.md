@@ -41,27 +41,31 @@ Parallelize the code developed in Project 01 to run on a GPU using both OpenMP a
 ---
 
 ## Tasks
+
 All tasks are compelted in C using linux GCC compiler, and each .c file includes code execution times.
 
-### Task1
-
 ### Task2
+
 Given a code, use OpenMP MAP to parallelize it by adding directives only, without altering the code.
 
 ### Task3
+
 Implement a parallel code in OpenMP using REDUCE pattern and process scheduling to count prime numbers between 2 and n, where n is an integer <= 1.000.000.000. The provided code uses Sieve of Eratosthenes.
 
 The speed-up must be higher than 1.3, and the custom scheduling policy should show better performance than the default policy.
 
 ### Task4
+
 Given an MPI code, complete it with `send` and `receive` operations to make it function correctly
 
 Collective communication operations are not allowed.
 
 ### Task6
+
 Complete a given MPI code to accept any number of processes using collective communication.
 
 ### Task7
+
 Given a code for matrix multiplication, parallelize it and evaluate performance.
 
 The code should be tested sequentially, in multicore parallel mode, and in GPU parallel mode.
@@ -70,6 +74,7 @@ The code should be tested sequentially, in multicore parallel mode, and in GPU p
 All versions must be compiled with the `-O3` optimization flag and GCC 8. The multicore solution should show performance improvement (speedup) over the sequential.
 
 ### Task8
+
 Using the same matrix multiplication for Task7, parallelize for GPU using OpenMP and CUDA.
 
 Versions to implement:
