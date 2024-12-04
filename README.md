@@ -6,11 +6,15 @@ This repository contains files related to the Parallel Computing (CP) course in 
 
 ## Projects
 
+Parallelize a sequential version of parallel artificial intelligence application in C or C++.  
+The application must fit one of three artificial intelligence categories:
+- decision tree.
+- grouping.
+- neural network.  
+
 ### First Project - Parallel (OpenMP && MPI)
 
-Parallelize a sequential version of a parallel artificial intelligence application in C or C++ using hybrid MPI/OpenMP.  
-The application must fit one of three artificial intelligence categories:
-decision tree, grouping or neural network.  
+Parallelize the application using hybrid MPI/OpenMP.  
 
 `Requirements`:
 - Group must use a real input dataset that demands at least 10 seconds of execution time on the parcode server on sequential version.  
